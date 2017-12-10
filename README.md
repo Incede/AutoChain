@@ -12,16 +12,25 @@ auto marketing and auto financing
 
 
 
-# Auto Attributes                 Participant attributes
+# Auto Attributes                 
 
-make					regulator
-model					manufactrer
-colour					dealership
-reg					lease company
-owner					leasee	
-scrapped				scrap merchant
+make					
+model					
+colour					
+reg					    
+owner						
+scrapped				
 status
 leasecontractid
+
+# Participant attributes
+
+regulator
+manufactrer
+dealership
+lease company
+leasee
+scrap merchant
 
 
 # Stages of Auto
