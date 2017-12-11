@@ -17,9 +17,6 @@ bool scrapped;
 bytes32 leaseid;
 }
 
-uint32[] owners;
-mapping (bytes32=>owners) ownerlist;
-
 struct participants {
 bytes32	regulator;
 bytes32	manufactrer;
@@ -34,7 +31,7 @@ mapping (bytes32=> attributes) Autolist;
 mapping (bytes32=>participants) Partylist;
 
 function register_new_auto (bytes32 regid)  public returns (bool) {
-index = Reg.length ;
+uint index = Reg.length ;
 Reg [index] = regid;
 return true; 
 }
