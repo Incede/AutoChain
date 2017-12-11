@@ -1,4 +1,4 @@
-/*  starting functions for Auto creation etc.*/
+/*  CRUD functions for Auto creation etc.*/
 
 pragma solidity ^0.4.19;
 
@@ -16,6 +16,9 @@ bytes32 owner;
 bool scrapped;
 bytes32 leaseid;
 }
+
+uint32[] owners;
+mapping (bytes32=>owners) ownerlist;
 
 struct participants {
 bytes32	regulator;
